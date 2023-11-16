@@ -1,0 +1,23 @@
+p::before{
+    content: 'Hi,give me pizza';
+    background-color: green;
+    color:blueviolet;
+}
+
+p:hover{
+    color:aquamarine;
+    font-style:italic;
+}
+
+
+p::selection{
+    color:red;
+    font-style:normal;
+}
+
+p::after{
+    content:"Thank you!";
+    font-weight:bold;
+    font-size:20px;
+    color:#CE33FF;
+}
